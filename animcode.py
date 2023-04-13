@@ -133,7 +133,7 @@ class Animator:
                 clear()
                 # print(result)
                 # Result with replacing aliases
-                print(replace_string(repl, result))
+                print(replace_string(repl, result),end="")
                 time.sleep(speed)
         # If need output, query
         if output:
@@ -146,7 +146,7 @@ class Animator:
         # Raw result
         # print(result)
         # Result with replacing aliases
-        print(replace_string(repl, result, True))
+        print(replace_string(repl, result, True),end="")
 
 
 def create_array(elements: List[List[int]]) -> List[List[int]]:

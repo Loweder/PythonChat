@@ -17,7 +17,7 @@ clients: Dict[int, socket.socket] = {}
 
 
 async def init_task():
-    os.system("mode 70,31")
+    os.system("mode 70,30")
     os.system("color 3F")
     an.add(-1, "Server")
     an.add(-1, "----------")
